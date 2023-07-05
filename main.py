@@ -42,4 +42,4 @@ async def on_message(message):
     else:
         await message.channel.send("No entiendo el comando")
 
-client.run("MTEyNTkyMTE3NTI1MjUxMjg2OA.G3zbGN.x7sqfQqCOk6kmkLgGtBGeeVXXF3RWjTcT-19PI")
+client.run("Bot token here")
