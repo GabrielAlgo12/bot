@@ -3,6 +3,7 @@ import discord
 from bot_logic import gen_pass
 from bot_logic import gen_emodji
 from bot_logic import flip_coin
+from bot_logic import hola
 
 # La variable intents almacena los privilegios del bot
 intents = discord.Intents.default()
@@ -34,6 +35,9 @@ async def on_message(message):
 
     elif message.content.startswith('$flip_coin'):
         await message.channel.send(flip_coin)
+
+    elif message.content.startswith('$como_estas?'):
+        await message.channel.send(hola)
 
     elif message.content.startswith('bye'):
         await message.channel.send("\U0001F612")
