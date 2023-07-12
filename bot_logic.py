@@ -21,3 +21,5 @@ def flip_coin():
         return "HEADS"
     else:
         return "TAILS"
+def hola():
+    message.channel.send("Hi!")
